@@ -1,0 +1,51 @@
+/*basic layout styles */
+body {
+    margin: 0;
+    background-color: #000000;
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+ul {
+    margin: 10px 0 0 0 ;
+    padding: 0 40px 0 0;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* li.active{
+    
+} */
+
+li:hover{
+    text-decoration: underline;
+}
+
+#flexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+}
+
+/* styling profle picture */
+
+#profilePic {
+    display: flex;
+    justify-content: center;
+}
+
+#profilePic img {
+    width: 20%;
+}
+
