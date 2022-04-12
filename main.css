@@ -3,7 +3,7 @@
 
 /* For mobile screens */
 body {
-  margin: 0;
+  margin: 10px;
   background-color: #000000;
   font-family: Poppins, Georgia, "Times New Roman", Times, serif;
   color: #ffffff;
@@ -12,7 +12,7 @@ body {
 ul {
   margin: 10px 0 0 0;
   padding: 0 40px 0 0;
-  text-align:  center;
+  text-align: center;
 }
 
 li {
@@ -55,8 +55,8 @@ li:hover {
 
 /* Styling  */
 #hello {
-    margin-top: 25px;
-    font-size: 20px;
+  margin-top: 25px;
+  font-size: 20px;
 }
 
 #intro {
@@ -68,12 +68,173 @@ li:hover {
 }
 
 /* Styling for Footer */
+
 footer p {
-  margin: 60px 8px 0 0;
+  margin: 65px 8px 0 0;
+  text-align: right;
+  /* position:fixed;
+  bottom:0; */
+  /* position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   Height of the footer */
+  font-size: 10px;
+}
+
+/* Designing for projects.html page */
+#sampleHeadline {
+  text-align: center;
+}
+
+#projectContainer {
+  margin: 15px;
+}
+
+#proj1,
+#proj2,
+#proj3 {
+  margin: 15px 0 15px 0;
+}
+.projectsDiv {
+  border: 2px solid #ffffff;
+  padding: 2%;
+}
+
+.projectsDiv img {
+  width: 100%;
+}
+#projectFooter p {
+  margin: 30px 8px 0 0;
+}
+#projectFooter {
+  margin: 25px 8px 0 0;
   text-align: right;
   font-size: 10px;
 }
+
+/* Designing for contact page */
+
+#letsConnect {
+  text-align: center;
+}
+
+#formContainer {
+  margin: 20px;
+  border: 1.5px dashed #ffffff;
+}
+
+#lab1,
+#lab2,
+#lab3,
+#lab4,
+#submitButton {
+  padding: 15px;
+}
+
+#submitButton, #submitButton input {
+  display: block;
+  margin: 0 auto;
+}
+#lab1,
+#lab2,
+#lab3 {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+label, input {
+  display: inline-block ;
+}
+
+label {
+  width: 30%;
+  /* Positions the label text beside the input */
+  text-align: center;
+}
+
+label+input {
+  width: 30%;
+  margin: 0 30% 0 4%;
+}
+
+#lab4 {
+  display: flex;
+  align-items: center;
+  /* margin: 10px 0 10px 0; */
+}
+
+#lab4 label {
+  width: 100%;
+  text-align: center;
+}
+#msgBox, #msgBox textarea {
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+/*#lab4 input {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  margin-left: 30px;
+} */
+
+/* input+input {
+  float: right;
+} */
+/* label {
+  display: flex;
+}
+
+input {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-left: 30px;
+} */
+
+#contactFooter {
+  margin: 0 8px 0 0;
+  text-align: right;
+  font-size: 10px;
+}
+#contactFooter p {
+margin: 40px 8px 0 0;
+}
+
 /* For larger screens, greater than 480px */
 @media screen and (min-width: 481px) {
-  
+  #projectContainer {
+    display: flex;
+  }
+
+  .projectsDiv {
+    margin: 2%;
+  }
+  #proj1, #proj2, #proj3 {
+    margin: 1%;
+  }
+  .projectsDiv img {
+    width: 100%;
+  }
+  .projectsDiv p {
+    padding: 20px;
+  }
+
+  #profilePic img {
+    width: 22%;
+}
+#hello {
+  font-size: 35px;
+}
+#intro {
+  font-size: 19px;
+}
+#contact {
+  font-size: 16px;
+}
+footer p {
+  margin: 0px 8px 0 0;
+}
 }

@@ -36,21 +36,49 @@
     <!-- Navigation Menu -->
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
       </ul>
     </nav>
     <!-- Main Section -->
     <main>
-      <div id="projectContainer">
-        <div id="proj1"></div>
-        <div id="proj2"></div>
-        <div id="proj3"></div>
+      <h2 id="letsConnect">Let's get connected</h2>
+     <form id="formContainer">
+
+       <div id="lab1">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="First Name"><br>
       </div>
+
+      <div id="lab2">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+      </div>
+
+      <div id="lab3">
+        <label for="emailID">Email ID</label>
+        <input type="text" id="emailID" name="emailID" placeholder="Email ID"><br>
+      </div>
+
+      <div id="msgBox">
+        <textarea rows="4" cols="50" name="comment" form="usrform">
+          Type your message here...</textarea>
+      </div>
+
+      <div id="lab4">
+        <input type="checkbox" id="consent" name="consent">
+        <label for="consent">I give my consent for receiving weekly updates, important mails, and promotional emails.</label>
+      </div>
+
+      <div id="submitButton">
+        <input type="button" id="btn" name="btn" value="Submit">
+
+      </div>
+
+     </form>
     </main>
-    <footer>
-      <p>&copy; <span id="footerName">Florid MacLean</span></p>
-    </footer>
+    <footer id="contactFooter">
+      <p>&copy; <span id="footerName"><a href="mailto:floridmaclean@example.com">Florid MacLean</a></span></p>    </footer>
   </body>
 </html>
