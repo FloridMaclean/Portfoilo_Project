@@ -130,6 +130,10 @@ footer p {
 #submitButton {
   padding: 15px;
 }
+/* Styling for linkedIn link */
+ #socialLinks h5 {
+  text-align: center;
+}
 
 #submitButton, #submitButton input {
   display: block;
